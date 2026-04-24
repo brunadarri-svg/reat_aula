@@ -1,4 +1,5 @@
 import livro from '../../imagens/livro.png'
+import UltimosLancamentos from '../UltimosLancamentos'
 
  export const livros= [
     {nome:'Liderança em Design', id: 1, src: livro},
@@ -6,3 +7,5 @@ import livro from '../../imagens/livro.png'
     {nome:'Cangaceiro em JavaScript', id: 3, src: livro},
     {nome:'Aventureiros do Java', id: 4, src: livro},
 ]
+
+export default UltimosLancamentos
